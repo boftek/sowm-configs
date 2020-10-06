@@ -8,8 +8,7 @@ Now keep in mind this config is really simple.
 
 ### Get SOWM
 
-I recommend using the original guide on how to install it. I pasted it here anyways.
-\
+Clone the repo :)
 
 ## Installation
 
