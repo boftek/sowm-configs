@@ -12,7 +12,7 @@ Clone the repo :)
 
 ## Installation
 
-1) Copy `config.def.h` to `config.h` and modify it to suit your needs.
+1) You can modift `config.h` suit your needs.
 2) Run `make` to build `sowm`.
 3) Copy it to your path or run `make install`.
     - `DESTDIR` and `PREFIX` are supported.
@@ -20,9 +20,10 @@ Clone the repo :)
     - In case of applying multiple patches, it has to be done **manually**.
 
 ### Launch SOWM (Method 1)
-If you are using GDM, save the following to `/usr/share/xsessions/sowm.desktop`. It is still recommended to start `sowm` from `.xinitrc`
+Start `sowm` from `.xinitrc` or use `tty` to start it.
 
 ### Lanch SOWM (Method 2)
+Launch it using login manager (GDM, LightDM, SDM etc.)
 My config includes some functions like autostart. To use them I used this [guide](https://github.com/dylanaraps/sowm/issues/29)
 \
 In case you want to use mine visit my [dotfiles](https://github.com/philippanic/dotz/tree/master/.config/sowm-scripts)
