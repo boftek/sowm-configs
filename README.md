@@ -1,15 +1,15 @@
 # SOWM
 
 SOWM is one of my preferred window manager in Linux.
-/
+\
 So I created my owm configs of this WM.
-/
+\
 Now keep in mind this config is really simple.
 
 ### Get SOWM
 
 I recommend using the original guide on how to install it. I pasted it here anyways.
-/
+\
 
 ## Installation
 
@@ -25,7 +25,7 @@ If you are using GDM, save the following to `/usr/share/xsessions/sowm.desktop`.
 
 ### Lanch SOWM (Method 2)
 My config includes some functions like autostart. To use them I used this [guide](https://github.com/dylanaraps/sowm/issues/29)
-/
+\
 In case you want to use mine visit my [dotfiles](https://github.com/philippanic/dotz/tree/master/.config/sowm-scripts)
 
 ## Navigate in SOWM
@@ -59,10 +59,11 @@ In case you want to use mine visit my [dotfiles](https://github.com/philippanic/
 | `XF86_MonBrightnessDown` | brightness down  | `bri`              |
 
 #### Additional software
-I use sxhkd to do some custom keybinds. /
-Nitrogen for setting the wallpapers /
-Compton for composting (shadows in terminal etc.)
-/
+I use sxhkd to do some custom keybinds. \
+Nitrogen for setting the wallpapers \
+Compton for composting (shadows in terminal etc.) \
+Patched dmenu avialiabile [here](https://github.com/philippanic/dotz/tree/master/.config/dmenu)
+\
 My sxhkd config lives [here](https://github.com/philippanic/dotz/tree/master/.config/sxhkd)
 
 
